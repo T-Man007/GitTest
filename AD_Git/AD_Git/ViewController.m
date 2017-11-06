@@ -18,6 +18,7 @@
     [super viewDidLoad];
     UILabel *label = [[UILabel alloc] init];
     [self.view addSubview:label];
+    label.frame = [UIScreen mainScreen].bounds;
     NSLog(@"删除.ssh文件");
 }
 
