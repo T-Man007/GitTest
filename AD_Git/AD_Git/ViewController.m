@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UILabel *label = [[UILabel alloc] init];
+    [self.view addSubview:label];
     NSLog(@"删除.ssh文件");
 }
 
